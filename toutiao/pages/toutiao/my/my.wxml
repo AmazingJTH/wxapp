@@ -1,0 +1,26 @@
+<!--my.wxml-->
+<view class="my-container">
+  <import src="/tpls/signin.wxml" />
+  <import src="/tpls/actionsheet.wxml" />
+  <template is="signin" data="{{modalHidden, ...userInfo}}"></template>
+  <template is="actionsheet" data="{{...actionSheet}}"></template>
+  <view class="login">
+    <image src="{{imgurl}}" bindtap="signin"></image>
+    <text>{{islogin}}</text>
+  </view>
+  <ul class="nav">
+    <li>
+      <image src="/images/save.png"></image>
+      <text>收藏</text>
+    </li>
+    <li>
+      <image src="/images/wallet.png"></image>
+      <text>钱包</text>
+    </li>
+    <li>
+      <image src="/images/market.png"></image>
+      <text>商城</text>
+    </li>
+  </ul>
+  <button bindtap="signout">退出</button>
+</view>

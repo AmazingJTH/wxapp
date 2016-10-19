@@ -1,0 +1,35 @@
+.d-container {
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .d-container .title {
+    box-sizing: border-box;
+    padding: 10px 0;
+    font-size: 18px; }
+  .d-container .content image {
+    width: 100%;
+    margin: 10px 0; }
+  .d-container .content text {
+    font-size: 14px;
+    line-height: 20px;
+    text-indent: 28px; }
+  .d-container .zan {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .d-container .zan li {
+      width: 50%;
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .d-container .zan li image {
+        width: 26px;
+        height: 26px; }
+      .d-container .zan li text {
+        font-size: 14px; }

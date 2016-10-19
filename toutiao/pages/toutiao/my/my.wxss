@@ -1,0 +1,46 @@
+.my-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+  .my-container .login {
+    width: 100%;
+    height: 220px;
+    background: url("/images/back.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .my-container .login image {
+      width: 80px;
+      height: 80px;
+      padding-bottom: 5px; }
+  .my-container .nav {
+    width: 100%;
+    height: 60px;
+    background: #eee;
+    display: flex;
+    align-items: center; }
+    .my-container .nav li {
+      width: 33%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .my-container .nav li image {
+        width: 20px;
+        height: 20px; }
+      .my-container .nav li text {
+        padding-top: 5px;
+        font-size: 12px; }
+  .my-container button {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 32px;
+    background: #f00;
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px; }

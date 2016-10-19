@@ -1,0 +1,19 @@
+<view class="d-container">
+  <!-- <import src="/tpls/dtemp.wxml" />
+  <template is="dtemp" data="{{...detailInfo}}"></template> -->
+  <view class="title">{{detailInfo.title}}</view>
+  <view class="content">
+    <image src="{{item}}" wx:for="{{detailInfo.img}}" wx:for-item="item"></image>
+    <text class="body" wx:for="{{detailInfo.content}}" wx:for-item="item2">{{item2}}</text>
+  </view>
+  <ul class="zan">
+    <li>
+      <image src="{{src1}}" bindtap="add"></image>
+      <text>好评</text>
+    </li>
+    <li>
+      <image src="{{src2}}" bindtap="sub"></image>
+      <text>差评</text>
+    </li>
+  </ul>
+</view>

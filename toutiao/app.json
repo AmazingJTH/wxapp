@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/toutiao/news/news",
+    "pages/toutiao/video/video",
+    "pages/toutiao/discover/discover",
+    "pages/toutiao/search/search",
+    "pages/toutiao/my/my",
+    "pages/toutiao/detail/detail",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color": "#a9b7b7",
+    "selectedColor": "#f00",
+    "borderStyle": "white",
+    "list":[
+      {
+        "pagePath": "pages/toutiao/news/news",
+        "text": "新闻",
+        "iconPath": "images/news.png",
+        "selectedIconPath": "images/news_press.png"
+      },
+      {
+        "pagePath": "pages/toutiao/video/video",
+        "text": "视频",
+        "iconPath": "images/video.png",
+        "selectedIconPath": "images/video_press.png"
+      },
+      {
+        "pagePath": "pages/toutiao/discover/discover",
+        "text": "发现",
+        "iconPath": "images/discover.png",
+        "selectedIconPath": "images/discover_press.png"
+      },
+      {
+        "pagePath": "pages/toutiao/search/search",
+        "text": "搜索",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search_press.png"
+      },
+      {
+        "pagePath": "pages/toutiao/my/my",
+        "text": "我的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine_press.png"
+      }
+    ]
+  }
+}
